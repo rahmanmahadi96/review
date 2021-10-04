@@ -6,13 +6,18 @@ import Menubar from '../Menubar/Menubar';
 const About = () => {
     return (
         <div className="about">
+            {/* navbar  */}
             <Menubar></Menubar>
+
+            {/* about learnbridge  */}
             <div className="about-details container p-5">
                 <h5 className="text-info text-center">About LearnBridge</h5>
                 <div className="intro">
                     <h1 className="my-4  text-center">Who We Are</h1>
                     <p>LearnBridge is an online learning platform aiming to provide educations to those students who may not be able to enroll in a traditional classroom course and support students who need to work on their own schedule and at their own pace.</p>
                 </div>
+
+                {/* goal  */}
                 <div className="mission">
                     <h1 className="text-center mb-4">Our Mission</h1>
                     <ul>
@@ -23,9 +28,14 @@ const About = () => {
                 </div>
                 <div className="team">
                     <h1 className="text-center mb-4">Our Popular Instructor</h1>
+                    {/* instructor display  */}
+
                     <Instructor></Instructor>
                 </div>
             </div>
+
+            {/* footer  */}
+
             <Footer></Footer>
             
         </div>

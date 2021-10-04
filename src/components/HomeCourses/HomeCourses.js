@@ -2,17 +2,22 @@ import React, { useEffect, useState } from 'react';
 
 const HomeCourses = () => {
     const [courses, setCourses] = useState([]);
+
+    // load data 
     useEffect(() =>{
         fetch('/homeCourses.json')
         .then(res=> res.json())
-        .then(data => setCourses(data))
+        .then(data => setCourses(data));
     }, [])
+
     return (
         <div className="container home-courses">
             <div className="heading text-center my-5">
                 <h5 className="text-info">Pick a Course to Get Started</h5>
                 <h1>Our Featured Courses</h1>
             </div>
+
+            {/* courses data  */}
             <div className="row">
                 {courses?.map((courseData) => (
                     <div className="col-md-4">

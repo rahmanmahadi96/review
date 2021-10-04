@@ -15,6 +15,7 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
+      {/* react router  */}
       <Router>
         <Switch>
           <Route exact path="/">

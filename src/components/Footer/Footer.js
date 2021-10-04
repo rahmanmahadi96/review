@@ -27,6 +27,7 @@ const Footer = () => {
                     <button className="btn btn-warning">Subscribe now</button>
                 </div>
             </div>
+            {/* copyright  */}
             <p className="text-center border-top">Copyright LearnBridge &copy; 2021. All Rights Reserved</p>
         </div>
     );

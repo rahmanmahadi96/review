@@ -1,12 +1,17 @@
 import React, { useEffect, useState } from 'react';
 
 const Instructor = () => {
+
     const [instructors, setInstructors] = useState([]);
+
+    // load data
+
     useEffect(() =>{
         fetch('/instructor.json')
         .then(res=> res.json())
-        .then(data => setInstructors(data))
+        .then(data => setInstructors(data));
     }, [])
+    
     return (
         <div className="instructor">
             <div className="row">

@@ -5,10 +5,15 @@ import Footer from '../Footer/Footer';
 const Faq = () => {
     return (
         <div className="faq text-center">
+            {/* navbar */}
+
             <Menubar></Menubar>
-            <div className="container">
+            <div className="container faq">
                 <h4 className="text-info mt-4 mb-2">FAQs</h4>
                 <h1>We've Got Answers</h1>
+
+                {/* accordion */}
+
                 <div className="accordion my-5" id="accordionExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingOne">
@@ -72,6 +77,7 @@ const Faq = () => {
                 </div>
             </div>
             </div>
+            {/* footer  */}
             <Footer></Footer>
         </div>
     );

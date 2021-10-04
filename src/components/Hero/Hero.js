@@ -4,8 +4,14 @@ import Menubar from '../Menubar/Menubar';
 const Hero = () => {
     return (
         <div className="hero-container">
+
+              {/* nav bar */}
+            <Menubar></Menubar>
+
+
+            {/* hero section  */}
             <div className="row d-flex align-items-center justify-content-center">
-                <Menubar></Menubar>
+              
                 <div className="col-md-6 p-5">
                     <h5 className="text-info">Welcome to LearnBridge</h5>
                     <h1 className="title">
@@ -16,6 +22,7 @@ const Hero = () => {
                     </p>
                     <button className=" btn btn-primary">Start a Course</button>
                 </div>
+
                 <div className="col-md-6 p-5 text-center">
                     <img className="w-75 rounded" src="./images/course.jpeg" alt="" />
                 </div>

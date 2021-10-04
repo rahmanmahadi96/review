@@ -5,6 +5,7 @@ import Menubar from '../Menubar/Menubar';
 
 const Courses = () => {
     return (
+        // display courses page 
         <div className="courses">
             <Menubar></Menubar>
             <DisplayCourses></DisplayCourses>

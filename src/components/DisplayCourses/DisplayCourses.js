@@ -1,12 +1,20 @@
 import React, { useEffect, useState } from 'react';
 
+
+// data for displaying courses 
+
 const DisplayCourses = () => {
     const [displayCourses, setDisplayCourses] = useState([]);
+    // load data 
+    
     useEffect(() =>{
         fetch('/courses.json')
         .then(res=> res.json())
-        .then(data => setDisplayCourses(data))
+        .then(data => setDisplayCourses(data));
     }, [])
+
+
+
     return (
         <div className="display-course container p-5">
             <div className="headings text-center my-5">
@@ -18,9 +26,7 @@ const DisplayCourses = () => {
                 {displayCourses?.map((courseData) => (
                 <div className="col-md-4">
                     <div className="card m-3">
-                
                         <img className="card-img-top" src={courseData.img} alt="" />
-                
                         <div className="card-body">
                         <div className="d-flex justify-content-between">
                             <h6>{courseData.instructor}</h6>

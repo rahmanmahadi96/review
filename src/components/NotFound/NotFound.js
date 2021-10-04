@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
+// error message 
 const NotFound = () => {
     return (
         <div className="error container p-5 text-center">

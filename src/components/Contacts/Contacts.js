@@ -5,10 +5,14 @@ import Menubar from '../Menubar/Menubar';
 const Contacts = () => {
     return (
         <div className="contact">
+            {/* navbar  */}
+
             <Menubar></Menubar>
             <div className="container p-5">
                 <h5 className="text-info text-center">Contact Us</h5>
                 <div className="row">
+
+                    {/* contact details  */}
                     <div className="col-md-6 p-5">
                         <p>Do you have questions about our courses, or just have a general enquiry? We are Australian owned and operated with an amazing team. Please don't hesitate to contact us with any questions that you may have.</p>
                         <div className="address">
@@ -20,6 +24,8 @@ const Contacts = () => {
                             <p>learnbridge@example.com</p>
                         </div>
                     </div>
+
+                    {/* contact form  */}
                     <div className="col-md-6 p-5">
                        
                             <label for="exampleFormControlInput1" className="form-label">Name</label>
