@@ -8,7 +8,7 @@ const DisplayCourses = () => {
         .then(data => setDisplayCourses(data))
     }, [])
     return (
-        <div className="display-course container">
+        <div className="display-course container p-5">
             <div className="headings text-center my-5">
                 <h5 className="text-info">Course List</h5>
                 <h1 className="mt-2">Enroll the course that fits your life</h1>

@@ -8,7 +8,8 @@ const Instructor = () => {
         .then(data => setInstructors(data))
     }, [])
     return (
-        <div>
+        <div className="instructor">
+            <div className="row">
             {
             instructors?.map((instructor) => (
                 <div className="col-md-3">
@@ -24,6 +25,7 @@ const Instructor = () => {
                     </div>
                 </div>
             ))}
+            </div>
         </div>
     );
 };
