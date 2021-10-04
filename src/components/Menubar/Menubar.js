@@ -27,7 +27,7 @@ const Menubar = () => {
                     <NavLink to="/contact" activeStyle={{ color: 'black', fontSize: '1.3rem' }} className="nav-item text-decoration-none p-4">
                         <li>Contact us</li>
                     </NavLink>
-                    <NavLink to="/contact" className="nav-item text-decoration-none p-4">
+                    <NavLink to="/home" className="nav-item text-decoration-none p-4">
                         <li className="btn btn-primary">Sign Up</li>
                     </NavLink>
                 </ul>

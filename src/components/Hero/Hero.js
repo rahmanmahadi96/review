@@ -14,7 +14,7 @@ const Hero = () => {
                     <p className=" my-3">
                     Learn Bridge is an online platform where you can learn and develop all your desired skills which will set the bridge of success for you.
                     </p>
-                    <button className=" btn btn-primary">Sign Up</button>
+                    <button className=" btn btn-primary">Start a Course</button>
                 </div>
                 <div className="col-md-6 p-5 text-center">
                     <img className="w-75 rounded" src="./images/course.jpeg" alt="" />
