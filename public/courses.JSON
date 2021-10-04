@@ -1,0 +1,116 @@
+[
+    {
+        "id": "1",
+        "title": "Web Development Course",
+        "instructor": "Jhankar Mahbub",
+        "ratings": 4.9,
+        "reviews": 520,
+        "img": "./images/web.jpeg",
+        "price": 285
+    },
+   
+    {
+        "id": "2",
+        "title": "Digital Marketing",
+        "instructor": "Mahadi Rahman",
+        "ratings": 4.8,
+        "reviews": 311,
+        "img": "./images/digital.jpg",
+        "price": 175
+    },
+    {
+        "id": "3",
+        "title": "Financial Management",
+        "instructor": "Tawhid Hasan",
+        "ratings": 4.6,
+        "reviews": 213,
+        "img": "./images/finance.jpeg",
+        "price": 180
+    },
+    {
+        "id": "4",
+        "title": "Introduction to HTML5",
+        "instructor": "Anisul Islam",
+        "ratings": 4.8,
+        "reviews": 413,
+        "img": "./images/html.jpeg",
+        "price": 170
+    }
+    ,
+    {
+        "id": "5",
+        "title": "Nutrition and Cooking",
+        "instructor": "Foujia Liz",
+        "ratings": 4.5,
+        "reviews": 219,
+        "img": "./images/nutrition.jpeg",
+        "price": 200
+    }
+    ,
+    {
+        "id": "6",
+        "title": "Sports and Society",
+        "instructor": "Nehal Rahman",
+        "ratings": 4.5,
+        "reviews": 109,
+        "img": "./images/sports.jpeg",
+        "price": 225
+    }
+    ,
+    {
+        "id": "7",
+        "title": "Graphic Design",
+        "instructor": "Mahdiya Rahman",
+        "ratings": 4.4,
+        "reviews": 177,
+        "img": "./images/graphic.jpeg",
+        "price": 250
+    }
+    ,
+    {
+        "id": "8",
+        "title": "Creative Writing",
+        "instructor": "Minhaj Mahib",
+        "ratings": 4.3,
+        "reviews": 292,
+        "img": "./images/writing.jpeg",
+        "price": 150
+    },
+    {
+        "id": "9",
+        "title": "Fashion as Design",
+        "instructor": "Tahmina Ritu",
+        "ratings": 4.6,
+        "reviews": 276,
+        "img": "./images/fashion.jpeg",
+        "price": 215
+    },
+    {
+        "id": "10",
+        "title": "Grammar and Punctuation",
+        "instructor": "Mahbub Ron",
+        "ratings": 4.5,
+        "reviews": 139,
+        "img": "./images/grammar.jpeg",
+        "price": 180
+    },
+    {
+        "id": "11",
+        "title": "Marketing Analytics",
+        "instructor": "Wajiha Rahman",
+        "ratings": 4.4,
+        "reviews": 76,
+        "img": "./images/marketing.jpeg",
+        "price": 230
+    },
+    {
+        "id": "12",
+        "title": "JavaScript Basic",
+        "instructor": "Abdul Muktadir",
+        "ratings": 4.6,
+        "reviews": 98,
+        "img": "./images/programming.jpeg",
+        "price": 200
+    }
+ 
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "i1",
+        "name": "Jhankar Mahbub",
+        "ratings": 4.9,
+        "reviews": 212,
+        "img": "./images/ins1.jpeg"
+    },
+   
+    {
+        "id": "i2",
+        "name": "Mahadi Rahman",
+        "ratings": 4.6,
+        "reviews": 98,
+        "img": "./images/ins2.jpeg"
+    },
+    {
+        "id": "i3",
+        "name": "Tawhid Hasan",
+        "ratings": 4.4,
+        "reviews": 63,
+        "img": "./images/ins3.jpeg"
+    },
+    {
+        "id": "i4",
+        "name": "Anisul Islam",
+        "ratings": 4.8,
+        "reviews": 126,
+        "img": "./images/ins4.jpeg"
+    }
+    
+]

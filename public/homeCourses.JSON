@@ -1,0 +1,59 @@
+[
+    {
+        "id": "1",
+        "title": "Web Development Course",
+        "instructor": "Jhankar Mahbub",
+        "ratings": 4.9,
+        "reviews": 520,
+        "img": "./images/web.jpeg",
+        "price": 285
+    },
+   
+    {
+        "id": "2",
+        "title": "Digital Marketing",
+        "instructor": "Mahadi Rahman",
+        "ratings": 4.8,
+        "reviews": 311,
+        "img": "./images/digital.jpg",
+        "price": 175
+    },
+    {
+        "id": "3",
+        "title": "Financial Management",
+        "instructor": "Tawhid Hasan",
+        "ratings": 4.6,
+        "reviews": 213,
+        "img": "./images/finance.jpeg",
+        "price": 180
+    },
+    {
+        "id": "4",
+        "title": "Introduction to HTML5",
+        "instructor": "Anisul Islam",
+        "ratings": 4.8,
+        "reviews": 413,
+        "img": "./images/html.jpeg",
+        "price": 170
+    },
+    {
+        "id": "5",
+        "title": "Nutrition and Cooking",
+        "instructor": "Foujia Liz",
+        "ratings": 4.5,
+        "reviews": 219,
+        "img": "./images/nutrition.jpeg",
+        "price": 200
+    }
+    ,
+    {
+        "id": "6",
+        "title": "Sports and Society",
+        "instructor": "Nehal Rahman",
+        "ratings": 4.5,
+        "reviews": 109,
+        "img": "./images/sports.jpeg",
+        "price": 225
+    }
+    
+]
