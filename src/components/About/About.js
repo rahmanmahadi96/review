@@ -27,7 +27,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className="team">
-                    <h1 className="text-center mb-4">Our Popular Instructor</h1>
+                    
                     {/* instructor display  */}
 
                     <Instructor></Instructor>
