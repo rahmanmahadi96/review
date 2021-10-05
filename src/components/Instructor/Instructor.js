@@ -13,7 +13,7 @@ const Instructor = () => {
     }, [])
     
     return (
-        <div className="instructor">
+        <div className="instructor container">
             <h1 className="text-center mb-4">Our Popular Instructor</h1>
             
             <div className="row">
