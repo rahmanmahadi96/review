@@ -3,6 +3,7 @@ import Achievements from '../Achievements/Achievements';
 import Footer from '../Footer/Footer';
 import Hero from '../Hero/Hero';
 import HomeCourses from '../HomeCourses/HomeCourses';
+import Instructor from '../Instructor/Instructor';
 import Testimonials from '../Testimonials/Testimonials';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Hero></Hero>
             <HomeCourses></HomeCourses>
             <Achievements></Achievements>
+            <Instructor></Instructor>
             <Testimonials></Testimonials>
             <Footer></Footer>
         </div>
